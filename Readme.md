@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Кирилл Сиражеев](https://up.htmlacademy.ru/htmlcss/25/user/4556).
-* Наставник: `Неизвестно`.
+* Наставник: [Роман Коробейников] (https://htmlacademy.ru/profile/rkorobeynikov)
 
 ---
 
