@@ -18,7 +18,7 @@
           <li><a href="contacts.html">Контакты</a></li>
         </ul>
         <ul class="cart">
-          <li><a href="cart.html">Корзина</a></li>
+          <li><a class="cart-link" href="cart.html">Корзина</a></li>
         </ul>
       </nav>
     </header>
@@ -82,6 +82,30 @@
             <p class="catalog-item"><a class="catalog-link" href="#">
               <img class="catalog-image" src="img/img-kvast.jpg" width="360" height="576" alt="Шаблон Kvast">Kvast</a></p>
           </section>
+
+    <section class="contact-us-form">
+        <h4>Напишите нам</h4>
+        <button class="contact-us-form-close" type="button">
+            Закрыть
+          </button>
+        <form class="contact-us-form" action="https://echo.htmlacademy.ru" method="post">
+        <p><label>
+            Ваше имя:
+          <input class="form-name" type="text" name="name-field" placeholder="Имя Фамилия">
+          </label></p>
+          <p><label>
+              Ваш e-mail:
+              <input class="form-email" type="text" name="email-field" placeholder="email@example.com">
+          </label></p>
+          <p><label>
+              Текст письма:
+              <textarea rows="10" cols="70" name="text-field" placeholder="В свободной форме"></textarea>
+          </label></p>
+          <button class="button-send" type="submit">
+              Отправить
+            </button>
+        </form>
+      </section>
     </main>
 
     <footer class="main-footer">
