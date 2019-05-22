@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283136;
+  background-color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+.main-navigation {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #eeeeee;
+}
+ul.main-navigation,
+ul.cart {
+  list-style: none;
+}
+ul.main-navigation a,
+ul.cart a {
+  color: #000000;
+}
+.main-navigation a:focus,
+.main-navigation a:hover {
+  color: #fb565a;
+}
+.cart-link:focus,
+.cart-link:hover {
+  color: #fb565a;
+}
+.advantages-list {
+  list-style: none;
+}
+.advantages-list h3 {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+}
+.advantages-list p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283136;
+}
+.advantage-sites-button {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #fb565a;
+  border: none;
+  border-radius: 3px;
+  padding: 18px 40px;
+}
+.advantage-sites-button:focus,
+.advantage-sites-button:hover {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #e74246;
+  border: none;
+  border-radius: 3px;
+  padding: 18px 40px;
+}
+.advantage-apps-button {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #00ca74;
+  border: none;
+  border-radius: 3px;
+  padding: 18px 40px;
+}
+.advantage-apps-button:focus,
+.advantage-apps-button:hover {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #00bc6c;
+  border: none;
+  border-radius: 3px;
+  padding: 18px 40px;
+}
+.advantage-presentations-button {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #efc84a;
+  border: none;
+  border-radius: 3px;
+  padding: 18px 40px;
+}
+.advantage-presentations-button:focus,
+.advantage-presentations-button:hover {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #eab534;
+  border: none;
+  border-radius: 3px;
+  padding: 18px 40px;
+}
+.contact-us-form {
+  display: none;
+}
+.social-buttons {
+  list-style: none;
+}
+.footer-offer {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+}
+.footer-offer-discription {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+}
+.page-title {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+  color: #000000;
+  background-color: #eeeeee;
+}
+legend {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+}
+.filters-name {
+  border: none;
+}
+.filters-grid-item,
+.filters-features-item {
+  list-style: none;
+  line-height: 20px;
+  font-size: 16px;
+  color: #283136;
+}
+.filter-input {
+  color: #b8b8b8;
+}
+.filter-input:hover,
+.filter-input:focus {
+  color: #4d4d4d;
+}
+.filter-input:disabled + label {
+  color: #b8b8b8;
+  opacity: 0.3;
+}
+

@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="mainheader">
@@ -30,13 +33,13 @@
             <legend>Сетка:</legend>
             <ul class="filters-grid">
               <li class="filters-grid-item">
-                <label><input type="radio" name="grid-type" value="adaptive">Адаптивная</label>
+                <label><input class="filter-input" type="radio" name="grid-type" value="adaptive" disabled>Адаптивная</label>
               </li>
               <li class="filters-grid-item">
-                  <label><input type="radio" name="grid-type" value="fix">Фиксированная</label>
+                  <label><input class="filter-input" type="radio" name="grid-type" value="fix">Фиксированная</label>
                 </li>
               <li class="filters-grid-item">
-                  <label><input type="radio" name="grid-type" value="flex">Резиновая</label>
+                  <label><input class="filter-input" type="radio" name="grid-type" value="flex">Резиновая</label>
                   </li>
             </ul>
           </fieldset>
@@ -44,19 +47,19 @@
               <legend>Особенности:</legend>
             <ul class="filters-features">
               <li class="filters-features-item">
-                  <label><input type="checkbox" name="features-type" value="slider">Слайдер</label>
+                  <label><input class="filter-input" type="checkbox" name="features-type" value="slider">Слайдер</label>
                   </li>
               <li class="filters-features-item">
-                  <label><input type="checkbox" name="features-type" value="features">Блок преимуществ</label>
+                  <label><input class="filter-input" type="checkbox" name="features-type" value="features">Блок преимуществ</label>
                 </li>
               <li class="filters-features-item">
-                  <label><input type="checkbox" name="features-type" value="news">Новости</label>
+                  <label><input class="filter-input" type="checkbox" name="features-type" value="news">Новости</label>
                 </li>
               <li class="filters-features-item">
-                  <label><input type="checkbox" name="features-type" value ="gallery">Галерея</label>
+                  <label><input class="filter-input" type="checkbox" name="features-type" value ="gallery">Галерея</label>
                   </li>
               <li class="filters-features-item">
-                  <label><input type="checkbox" name="features-type" value="cart">Корзина</label>
+                  <label><input class="filter-input" type="checkbox" name="features-type" value="cart">Корзина</label>
                 </li>
             </ul>
           </fieldset>
