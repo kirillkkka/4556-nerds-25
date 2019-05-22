@@ -181,4 +181,10 @@ legend {
   color: #b8b8b8;
   opacity: 0.3;
 }
-
+.catalog-image-browser {
+  opacity: 0.12;
+}
+.catalog-image-browser:hover,
+.catalog-image-browser:focus {
+  opacity: 1;
+}
