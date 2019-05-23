@@ -30,36 +30,44 @@
           <h2 class="visually-hidden">Фильтры</h2>
           <form class="filter" method="get" action="https://echo.htmlacademy.ru">
           <fieldset class="filters-name">
-            <legend>Сетка:</legend>
+            <legend class="filter-topic">Сетка:</legend>
             <ul class="filters-grid">
               <li class="filters-grid-item">
-                <label><input class="filter-input" type="radio" name="grid-type" value="adaptive" disabled>Адаптивная</label>
+                <input id="filter-adaptive" class="filter-input" type="radio" name="grid-type" value="adaptive">
+                <label for="filter-adaptive">Адаптивная</label>
               </li>
               <li class="filters-grid-item">
-                  <label><input class="filter-input" type="radio" name="grid-type" value="fix">Фиксированная</label>
+                  <input id ="filter-fix" class="filter-input" type="radio" name="grid-type" value="fix" disabled>
+                  <label for="filter-fix">Фиксированная</label>
                 </li>
               <li class="filters-grid-item">
-                  <label><input class="filter-input" type="radio" name="grid-type" value="flex">Резиновая</label>
+                  <input id="filter-flex" class="filter-input" type="radio" name="grid-type" value="flex">
+                  <label for="filter-flex">Резиновая</label>
                   </li>
             </ul>
           </fieldset>
           <fieldset class="filters-name">
-              <legend>Особенности:</legend>
+              <legend class="filter-topic">Особенности:</legend>
             <ul class="filters-features">
               <li class="filters-features-item">
-                  <label><input class="filter-input" type="checkbox" name="features-type" value="slider">Слайдер</label>
+                  <input id="filter-slider" class="filter-input" type="checkbox" name="features-type" value="slider">
+                  <label for="filter-slider">Слайдер</label>
                   </li>
               <li class="filters-features-item">
-                  <label><input class="filter-input" type="checkbox" name="features-type" value="features">Блок преимуществ</label>
+                  <input id="filter-features" class="filter-input" type="checkbox" name="features-type" value="features">
+                  <label for="filter-features">Блок преимуществ</label>
                 </li>
               <li class="filters-features-item">
-                  <label><input class="filter-input" type="checkbox" name="features-type" value="news">Новости</label>
+                  <input id="filter-news" class="filter-input" type="checkbox" name="features-type" value="news">
+                  <label for="filter-news">Новости</label>
                 </li>
               <li class="filters-features-item">
-                  <label><input class="filter-input" type="checkbox" name="features-type" value ="gallery">Галерея</label>
+                  <input id="filter-gallery" class="filter-input" type="checkbox" name="features-type" value ="gallery">
+                  <label for="filter-gallery">Галерея</label>
                   </li>
               <li class="filters-features-item">
-                  <label><input class="filter-input" type="checkbox" name="features-type" value="cart">Корзина</label>
+                  <input id="filter-cart" class="filter-input" type="checkbox" name="features-type" value="cart">
+                  <label for="filter-cart">Корзина</label>
                 </li>
             </ul>
           </fieldset>

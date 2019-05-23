@@ -141,6 +141,27 @@ ul.cart a {
   line-height: 36px;
   font-weight: 700;
 }
+.social-button-link {
+  position: inherit;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #e1e1e1;
+}
+.social-button-link:hover,
+.social-button-link:focus {
+  background-color: #e74246;
+}
+.social-icon-vk {
+  display: inline-block;
+}
+.social-icon-fb {
+  display: inline-block;
+}
+.social-icon-insta {
+  display: inline-block;
+}
 .footer-offer-discription {
   font-size: 16px;
   line-height: 22px;
@@ -153,7 +174,7 @@ ul.cart a {
   color: #000000;
   background-color: #eeeeee;
 }
-legend {
+.filter-topic {
   font-size: 18px;
   line-height: 30px;
   font-weight: 700;
