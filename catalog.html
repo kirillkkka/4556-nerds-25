@@ -13,23 +13,28 @@
         <a class="header-logo">
          <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип студии «Нёрдс»">
         </a>
-        <ul class="main-navigation">
-          <li><a href="info.html">Студия</a></li>
-          <li><a href="clients.html">Клиенты</a></li>
-          <li class="main-navigation-active"><a href="catalog.html">Магазин</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-        <ul class="cart">
-          <li><a class="cart-link" href="cart.html">Корзина</a></li>
-        </ul>
+        <div class="main-navigation-wrapper">
+            <div class="footer-container">
+              <ul class="site-navigation">
+                <li><a href="info.html">Студия</a></li>
+                <li><a href="clients.html">Клиенты</a></li>
+                <li><a href="catalog.html">Магазин</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+              </ul>
+              <ul class="cart">
+                <li><a class="cart-link" href="cart.html">Корзина</a></li>
+              </ul>
+            </div>
+          </div>
       </nav>
     </header>
     <main class="container">
         <h1 class="page-title">Магазин готовых шаблонов</h1>
-        <section class="filters">
-          <h2 class="visually-hidden">Фильтры</h2>
-          <form class="filter" method="get" action="https://echo.htmlacademy.ru">
-          <fieldset class="filters-name">
+        <div class="catalog-columns">
+          <section class="filters">
+            <h2 class="visually-hidden">Фильтры</h2>
+            <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+            <fieldset class="filters-name">
             <legend class="filter-topic">Сетка:</legend>
             <ul class="filters-grid">
               <li class="filters-grid-item">
@@ -45,10 +50,10 @@
                   <label for="filter-flex">Резиновая</label>
                   </li>
             </ul>
-          </fieldset>
-          <fieldset class="filters-name">
+            </fieldset>
+            <fieldset class="filters-name">
               <legend class="filter-topic">Особенности:</legend>
-            <ul class="filters-features">
+              <ul class="filters-features">
               <li class="filters-features-item">
                   <input id="filter-slider" class="filter-input" type="checkbox" name="features-type" value="slider">
                   <label for="filter-slider">Слайдер</label>
@@ -69,28 +74,31 @@
                   <input id="filter-cart" class="filter-input" type="checkbox" name="features-type" value="cart">
                   <label for="filter-cart">Корзина</label>
                 </li>
-            </ul>
+              </ul>
           </fieldset>
           <button type="submit" class="filters-button">
             Показать
           </button>
           </form>
-        </section>
-        <section class="catalog">
+          </section>
+          <section class="catalog">
             <h2 class="visually-hidden">Каталог шаблонов</h2>
-            <p class="catalog-item"><a class="catalog-link" href="#">
-              <img class="catalog-image-browser" width="360" height="40" src="img/browser.svg" alt="Шапка шаблона"><img class="catalog-image" src="img/img-sedona.jpg" width="360" height="576" alt="Шаблон Sedona">Sedona</a></p>
-            <p class="catalog-item"><a class="catalog-link" href="#">
-              <img class="catalog-image-browser" width="360" height="40" src="img/browser.svg" alt="Шапка шаблона"><img class="catalog-image" src="img/img-pink.jpg" width="360" height="576" alt="Шаблон Pink">Pink</a></p>
-            <p class="catalog-item"><a class="catalog-link" href="#">
-              <img class="catalog-image-browser" width="360" height="40" src="img/browser.svg" alt="Шапка шаблона"><img class="catalog-image" src="img/img-barbershop.jpg" width="360" height="576" alt="Шаблон Barbershop">Barbershop</a></p>
-            <p class="catalog-item"><a class="catalog-link" href="#">
-              <img class="catalog-image-browser" width="360" height="40" src="img/browser.svg" alt="Шапка шаблона"><img class="catalog-image" src="img/img-mishka.jpg" width="360" height="576" alt="Шаблон Mishka">Mishka</a></p>
-            <p class="catalog-item"><a class="catalog-link" href="#">
-              <img class="catalog-image-browser" width="360" height="40" src="img/browser.svg" alt="Шапка шаблона"><img class="catalog-image" src="img/img-aplus.jpg" width="360" height="576" alt="Шаблон A Plus">A Plus</a></p>
-            <p class="catalog-item"><a class="catalog-link" href="#">
-              <img class="catalog-image-browser" width="360" height="40" src="img/browser.svg" alt="Шапка шаблона"><img class="catalog-image" src="img/img-kvast.jpg" width="360" height="576" alt="Шаблон Kvast">Kvast</a></p>
-        </section>
+            <ul class="catalog-list">
+            <li class="catalog-item"><a class="catalog-link" href="#">
+              <img class="catalog-image-browser" width="360" height="40" src="img/browser.svg" alt="Шапка шаблона"><img class="catalog-image" src="img/img-sedona.jpg" width="360" height="576" alt="Шаблон Sedona">Sedona</a></li>
+            <li class="catalog-item"><a class="catalog-link" href="#">
+              <img class="catalog-image-browser" width="360" height="40" src="img/browser.svg" alt="Шапка шаблона"><img class="catalog-image" src="img/img-pink.jpg" width="360" height="576" alt="Шаблон Pink">Pink</a></li>
+            <li class="catalog-item"><a class="catalog-link" href="#">
+              <img class="catalog-image-browser" width="360" height="40" src="img/browser.svg" alt="Шапка шаблона"><img class="catalog-image" src="img/img-barbershop.jpg" width="360" height="576" alt="Шаблон Barbershop">Barbershop</a></li>
+            <li class="catalog-item"><a class="catalog-link" href="#">
+              <img class="catalog-image-browser" width="360" height="40" src="img/browser.svg" alt="Шапка шаблона"><img class="catalog-image" src="img/img-mishka.jpg" width="360" height="576" alt="Шаблон Mishka">Mishka</a></li>
+            <li class="catalog-item"><a class="catalog-link" href="#">
+              <img class="catalog-image-browser" width="360" height="40" src="img/browser.svg" alt="Шапка шаблона"><img class="catalog-image" src="img/img-aplus.jpg" width="360" height="576" alt="Шаблон A Plus">A Plus</a></li>
+            <li class="catalog-item"><a class="catalog-link" href="#">
+              <img class="catalog-image-browser" width="360" height="40" src="img/browser.svg" alt="Шапка шаблона"><img class="catalog-image" src="img/img-kvast.jpg" width="360" height="576" alt="Шаблон Kvast">Kvast</a></li>
+            </ul>
+         </section>
+        </div>
         <section class="contact-us-form">
           <h4>Напишите нам</h4>
           <button class="contact-us-form-close" type="button">
@@ -119,18 +127,17 @@
         </section>
     </main>
     <footer class="main-footer">
-        <div class="footer-social">
+        <div class="container">
           <ul class="social-buttons">
-            <li class="social-button-item"><a class="social-button-link" href="#">
-              <img class="footer-social-icon" src="img/vk-icon.svg" width="26" height="15" alt="Иконка Вконтакте">Вконтакте</a></li>
-            <li class="social-button-item"><a class="social-button-link" href="#">
-              <img class="footer-social-icon" src="img/fb-icon.svg" width="12" height="22" alt="Иконка Фейсбук">Фейсбук</a></li>
-            <li class="social-button-item"><a class="social-button-link" href="#">
-              <img class="footer-social-icon" src="img/insta-icon.svg" width="21" height="21" alt="Иконка Инстаграм">Инстаграм</a></li>
+            <li><a href="#">Вконтакте</a></li>
+            <li><a href="#">Фейсбук</a></li>
+            <li><a href="#">Инстаграм</a></li>
           </ul>
-          </div>
-          <p><b>Давайте дружить, это выгодно!</b></p>
-          <p>Скидка 10% для друзей из социальных сетей.</p>
-    </footer>
+            <div class="offer-text">
+              <p class="footer-offer"><b>Давайте дружить, это выгодно!</b></p>
+              <p class="footer-offer-discription">Скидка 10% для друзей из социальных сетей.</p>
+            </div>
+        </div>
+      </footer>
     </body>
   </html>
