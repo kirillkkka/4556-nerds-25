@@ -11,6 +11,9 @@ body {
 a {
   text-decoration: none;
 }
+.mainheader {
+  background-color: #eeeeee;
+}
 .main-navigation {
   font-size: 16px;
   line-height: 30px;
@@ -203,50 +206,48 @@ ul.cart a {
 
 /* Сетки */
 
-.footer-container {
-  width: 800px;
-  margin: 0 auto;
-  padding: 0 10px;
+.mainheader {
+  margin: 0;
+  padding: 0;
 }
 .header-logo {
   width: 160px;
   height: 65px;
-  padding-left: 140px;
+  margin: auto;
 }
 .main-navigation {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  padding-bottom: 35px;
-  padding-top: 50px;
+  width: 1160px;
+  margin-bottom: 37px;
+  margin: auto;
 }
 .main-navigation-wrapper {
-  width: 100%;
-  background-color: #eeeeee;
-
-}
-.main-navigation-wrapper .footer-container {
+  width: 820px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
 }
 .site-navigation {
-  width: 440px;
-  margin: 0;
+  margin: auto;
   padding: 0;
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 440px;
 }
 .cart {
-  margin: 0;
+  margin: auto;
   padding: 0;
 }
 .advantages-list {
   display: flex;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
+  width: 1160px;
+  margin: auto;
+}
+.advantage-sites,
+.advantage-apps {
+margin-right: 100px;
 }
 .advantage-sites,
 .advantage-apps,
@@ -254,24 +255,24 @@ ul.cart a {
   width: 300px;
 }
 .advantages {
-  padding-left: 140px;
-  padding-right: 200px;
+  padding: 0;
   margin-bottom: 80px;
 }
 .main-footer {
-  padding: 70px 0;
+  margin-top: 70px;
+  padding: 0;
+  width: 1160px;
 }
 .main-footer .container {
   display: flex;
 }
 .social-buttons {
   width: 260px;
-  margin: 0;
-  margin-right: 140px;
-  padding-left: 140px;
+  margin: auto;
 }
 .offer-text {
   width: 560px;
+  margin: auto;
 }
 .page-title {
   margin: 0;
@@ -282,15 +283,16 @@ ul.cart a {
 }
 .filters {
   width: 260px;
-  padding-left: 140;
+  margin-right: auto;
 }
 .catalog {
   width: 760px;
 }
 .catalog-columns {
+  width: 1160px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  margin: auto;
 }
 .catalog-item {
   width: 360px;
@@ -306,5 +308,8 @@ ul.cart a {
   padding: 0;
   margin: 0;
   list-style: none;
-
+}
+.container {
+  width: 1160px;
+  margin: auto;
 }
