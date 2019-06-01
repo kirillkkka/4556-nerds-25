@@ -261,7 +261,7 @@ margin-right: 100px;
 .main-footer {
   margin-top: 70px;
   padding: 0;
-  width: 1160px;
+  margin: auto;
 }
 .main-footer .container {
   display: flex;
