@@ -975,7 +975,6 @@ img {
   width: 260px;
   margin-right: 140px;
   padding: 0;
-  margin-top: 55px;
 }
 .filter {
   margin-top: 50px;
@@ -991,6 +990,7 @@ img {
 }
 .filters-name {
   border: none;
+
 }
 .filters-grid-item,
 .filters-features-item {
@@ -1140,11 +1140,11 @@ img {
   margin: 0;
   padding: 0;
   border: none;
-  margin-bottom: 50px;
 }
 .range-filter {
   width: 260px;
   margin-top: 49px;
+  margin-bottom: 30px;
 }
 .filter-item legend {
   font-size: 18px;
