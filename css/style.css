@@ -395,7 +395,8 @@ ul.cart a {
 .index-columns {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 80px;
+  margin-top: 80px;
+  margin-bottom: 60px;
 }
 .about {
 	width: 650px;
@@ -450,14 +451,17 @@ ul.cart a {
 	line-height: 18px;
 }
 .hr-line {
-	margin-bottom: 65px;
+  margin-bottom: 60px;
+  border: solid 1.5px #eeeeee;
 }
 .clients-list {
 	display: flex;
 	justify-content: space-between;
 	margin: 0;
 	padding: 0;
-	list-style: none;
+  list-style: none;
+  margin-bottom: 35px;
+  margin-top: 30px;
 }
 .clients-list a {
 	opacity: 0.2;
@@ -639,6 +643,10 @@ ul.cart a {
 
 /* map - contacts */
 
+.map-contacts {
+  position: relative;
+  height: 420px;
+}
 .main-contacts h3 {
   font-size: 18px;
   line-height: 30px;
@@ -647,10 +655,11 @@ ul.cart a {
   margin-bottom: 25px;
   margin-left: 50px;
   margin-top: 45px;
+  text-transform: uppercase;
 }
 .main-contacts {
   position: relative;
-  bottom: 550px;
+  bottom: 350px;
   left: 100px;
   background: #ffffff;
   width: 320px;
@@ -659,13 +668,13 @@ ul.cart a {
   flex-direction: column;
 }
 .main-map {
-  display: flex;
-  justify-content: space-between;
+  position: relative;
+  width: 100%;
 }
 .map-marker {
-  position: relative;
-  left: 755px;
-  bottom: 330px;
+  position: absolute;
+  left: 775px;
+  bottom: 160px;
 }
 .contacts {
   font-size: 16px;
@@ -677,6 +686,7 @@ ul.cart a {
   margin: 0 auto;
   margin-bottom: 5px;
   margin-left: 50px;
+  white-space: pre-line;
 }
 .tel {
   font-size: 16px;
@@ -716,6 +726,7 @@ ul.cart a {
   box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
 }
 
+
 /* footer */
 
 .footer-offer {
@@ -743,6 +754,7 @@ ul.cart a {
 .main-footer {
   width: 1160px;
   margin-top: 70px;
+  margin-bottom: 60px;
   padding: 0;
   margin-right: auto;
 }
@@ -786,6 +798,7 @@ ul.cart a {
 }
 .catalog {
   width: 760px;
+  margin-bottom: 60px;
 }
 .catalog-columns {
   width: 1160px;
