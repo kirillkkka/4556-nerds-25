@@ -508,6 +508,11 @@ ul.cart a {
 .clients-item {
   width: 260px;
 }
+.line {
+  border-right: solid 1.5px #eeeeee;
+  height: 50px;
+  margin-right: 70px;
+}
 .clients-list a {
 	opacity: 0.2;
 }
@@ -776,6 +781,7 @@ ul.cart a {
 .map-contacts {
   position: relative;
   height: 420px;
+  padding-top: 5px;
 }
 .main-contacts h3 {
   font-size: 18px;
@@ -815,6 +821,7 @@ ul.cart a {
   font-weight: 400;
   text-transform: initial;
   color: #666666;
+  width: 215px;
   padding: 0;
   margin: 0 auto;
   margin-bottom: 5px;
@@ -845,7 +852,7 @@ ul.cart a {
   background-color: #fb565a;
   border: none;
   border-radius: 3px;
-  padding: 14px 0;
+  padding: 15px 0;
   margin-bottom: 50px;
   margin-left: 50px;
 }
@@ -1024,20 +1031,21 @@ img {
   font-weight: 400;
   text-align: center;
   text-transform: none;
-  white-space: pre-line;
+  white-space: pre-wrap;
   margin: 0 auto; 
+  width: 240px;
 }
 .catalog-item .action {
   position: absolute;
   top: 0;
   left: 0;
-  box-shadow: 0 30px 50px rgba(0, 1, 1, 0.25);
 }
 .catalog-item .buy-link {
   display: block;
   width: 200px;
   height: 50px;
-  margin: 30px auto;
+  margin-top: 30px;
+  margin-left: 80px;
   border-radius: 3px;
   background-color: #fb565a;
   color: #ffffff;
@@ -1051,20 +1059,25 @@ img {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+
 }
-.catalog-item .action {
+.action {
   display: block;
   width: 360px;
-  min-height: 231px;
-  margin: 0 auto;
-  margin-top: 345px;
   background-color: #eeeeee;
+  position: absolute;
+  bottom: 0;
+  margin-top: 340px;
+  min-height: 230px;
+  max-height: 545px;
+  overflow: auto;
 }
 .catalog-item .action {
   display: none;
 }
 .catalog-item:hover {
-  box-shadow: 0 10px 30px rgba(0, 1, 1, 0.25);
+  -webkit-box-shadow: 0 6px 15px rgba(0, 1, 1, 0.25);
+  box-shadow: 0 6px 15px rgba(0, 1, 1, 0.25);
 }
 .catalog-item:hover .action,
 .catalog-item:focus .action  {
@@ -1320,6 +1333,10 @@ img {
   width: 260px;
   margin-top: 55px;
   margin-bottom: 30px;
+}
+.bar {
+  margin-left: 0;
+  width: 10%;
 }
 .filter-item legend {
   font-size: 18px;

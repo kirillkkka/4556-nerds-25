@@ -18,7 +18,7 @@
             <ul class="site-navigation">
                 <li><a href="info.html">Студия</a></li>
                 <li><a href="clients.html">Клиенты</a></li>
-                <li><a href="catalog.html">Магазин</a></li>
+                <li><a href="catalog.html" class="active-link">Магазин</a></li>
                 <li><a href="contacts.html">Контакты</a></li>
             </ul>
             <ul class="cart">
@@ -36,7 +36,7 @@
                         <div class="range-filter">
                             <div class="range-controls">
                                 <div class="scale">
-                                    <div class="bar" style="margin-left: 5%; width: 60%"></div>
+                                    <div class="bar"></div>
                                 </div>
                                 <div class="toggle toggle-min"></div>
                                 <div class="toggle toggle-max"></div>
@@ -52,7 +52,7 @@
                         <legend class="filter-topic">Сетка:</legend>
                         <ul class="filters-grid">
                             <li class="filters-grid-item">
-                                <input id="filter-adaptive" class="filter-input filter-input-radio" type="radio" name="grid-type" value="adaptive">
+                                <input id="filter-adaptive" class="filter-input filter-input-radio" type="radio" name="grid-type" value="adaptive" checked>
                                 <label for="filter-adaptive">Адаптивная</label>
                             </li>
                             <li class="filters-grid-item">
@@ -71,7 +71,7 @@
                         <legend class="filter-topic">Особенности:</legend>
                         <ul class="filters-features">
                             <li class="filters-features-item">
-                                <input id="filter-slider" class="filter-input filter-input-checkbox" type="checkbox" name="features-type" value="slider">
+                                <input id="filter-slider" class="filter-input filter-input-checkbox" type="checkbox" name="features-type" value="slider" checked>
                                 <label for="filter-slider">Слайдер</label>
                             </li>
                             <li class="filters-features-item">
@@ -79,7 +79,7 @@
                                 <label for="filter-features">Блок преимуществ</label>
                             </li>
                             <li class="filters-features-item">
-                                <input id="filter-news" class="filter-input filter-input-checkbox" type="checkbox" name="features-type" value="news">
+                                <input id="filter-news" class="filter-input filter-input-checkbox" type="checkbox" name="features-type" value="news" checked>
                                 <label for="filter-news">Новости</label>
                             </li>
                             <li class="filters-features-item">
@@ -87,7 +87,7 @@
                                 <label for="filter-gallery">Галерея</label>
                             </li>
                             <li class="filters-features-item">
-                                <input id="filter-cart" class="filter-input filter-input-checkbox" type="checkbox" name="features-type" value="cart" disabled>
+                                <input id="filter-cart" class="filter-input filter-input-checkbox" type="checkbox" name="features-type" value="cart">
                                 <label for="filter-cart">Корзина</label>
                             </li>
                         </ul>
@@ -153,8 +153,7 @@
                                 <a href="#">
                                     <div class="item-name">A plus</div>
                                 </a>
-                                <div class="item-info">Лендинг курсов повышения квалификации
-                                </div><a class="buy-link" href="#">9 900 руб.</a></div>
+                                <div class="item-info">Лендинг курсов повышения квалификации</div><a class="buy-link" href="#">9 900 руб.</a></div>
                         </li>
 
                         <li class="catalog-item">
