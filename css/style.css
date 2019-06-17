@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", "Arial", sans-serif;
+  font-family: Roboto, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -134,7 +134,7 @@ ul.cart a {
   opacity: 0.3;
 }
 .active-link {
-  border-bottom: solid #d7373b 3px;
+  border-bottom: solid #fb565a 2px;
 }
 .cart a:focus,
 .cart a:hover {
@@ -1033,12 +1033,13 @@ img {
   text-transform: none;
   white-space: pre-wrap;
   margin: 0 auto; 
-  width: 240px;
+  width: 230px;
 }
 .catalog-item .action {
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
+  right: 0;
 }
 .catalog-item .buy-link {
   display: block;
@@ -1067,10 +1068,8 @@ img {
   background-color: #eeeeee;
   position: absolute;
   bottom: 0;
-  margin-top: 340px;
-  min-height: 230px;
-  max-height: 545px;
-  overflow: auto;
+  min-height: 190px;
+  padding-bottom: 40px;
 }
 .catalog-item .action {
   display: none;
